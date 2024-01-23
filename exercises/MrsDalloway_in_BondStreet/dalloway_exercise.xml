@@ -75,7 +75,7 @@
 	"id": "https://raw.githubusercontent.com/ashlynstewart404/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240123160227323",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-23T22:02:27.323Z",
-	"dcterms:modified": "2024-01-23T22:02:27.323Z",
+	"dcterms:modified": "2024-01-23T22:10:21.840Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ashlynstewart404",
 		"@type": [
@@ -106,7 +106,9 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:RealPlace"
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q189960",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -139,7 +141,7 @@
                something solemn in the deliberate swing of the repeated strokes; something stirring
                in the murmur of wheels and the shuffle of footsteps.</p>
             <p>No doubt they were not all bound on errands of happiness. There is much more to be
-               said about us than that we walk <placeName>the streets of Westminster</placeName>. Big Ben too is nothing
+               said about us than that we walk <placeName key="Westminster" ref="http://www.wikidata.org/entity/Q189960">the streets of Westminster</placeName>. Big Ben too is nothing
                but steel rods consumed by rust were it not for the care of H. M.'s Office of Works.
                Only for Mrs Dalloway the moment was complete; for Mrs Dalloway June was fresh. A
                happy childhood—and it was not to his daughters only that Justin Parry had seemed a
